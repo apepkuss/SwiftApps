@@ -10,9 +10,10 @@
 		2299054F1AD1A70F003FD06E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2299054E1AD1A70F003FD06E /* AppDelegate.swift */; };
 		229905511AD1A70F003FD06E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229905501AD1A70F003FD06E /* ViewController.swift */; };
 		229905541AD1A70F003FD06E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 229905521AD1A70F003FD06E /* Main.storyboard */; };
-		229905561AD1A70F003FD06E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 229905551AD1A70F003FD06E /* Images.xcassets */; };
 		229905591AD1A70F003FD06E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 229905571AD1A70F003FD06E /* LaunchScreen.xib */; };
 		229905651AD1A70F003FD06E /* AutolayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229905641AD1A70F003FD06E /* AutolayoutTests.swift */; };
+		2299056F1AD1F6E6003FD06E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2299056E1AD1F6E6003FD06E /* User.swift */; };
+		229905711AD1FDE6003FD06E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 229905701AD1FDE6003FD06E /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,11 +32,12 @@
 		2299054E1AD1A70F003FD06E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		229905501AD1A70F003FD06E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		229905531AD1A70F003FD06E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		229905551AD1A70F003FD06E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		229905581AD1A70F003FD06E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		2299055E1AD1A70F003FD06E /* AutolayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutolayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		229905631AD1A70F003FD06E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		229905641AD1A70F003FD06E /* AutolayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutolayoutTests.swift; sourceTree = "<group>"; };
+		2299056E1AD1F6E6003FD06E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		229905701AD1FDE6003FD06E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +79,10 @@
 		2299054B1AD1A70F003FD06E /* Autolayout */ = {
 			isa = PBXGroup;
 			children = (
-				2299054E1AD1A70F003FD06E /* AppDelegate.swift */,
+				2299056E1AD1F6E6003FD06E /* User.swift */,
 				229905501AD1A70F003FD06E /* ViewController.swift */,
 				229905521AD1A70F003FD06E /* Main.storyboard */,
-				229905551AD1A70F003FD06E /* Images.xcassets */,
-				229905571AD1A70F003FD06E /* LaunchScreen.xib */,
+				229905701AD1FDE6003FD06E /* Images.xcassets */,
 				2299054C1AD1A70F003FD06E /* Supporting Files */,
 			);
 			path = Autolayout;
@@ -90,6 +91,8 @@
 		2299054C1AD1A70F003FD06E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2299054E1AD1A70F003FD06E /* AppDelegate.swift */,
+				229905571AD1A70F003FD06E /* LaunchScreen.xib */,
 				2299054D1AD1A70F003FD06E /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,8 +196,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				229905541AD1A70F003FD06E /* Main.storyboard in Resources */,
+				229905711AD1FDE6003FD06E /* Images.xcassets in Resources */,
 				229905591AD1A70F003FD06E /* LaunchScreen.xib in Resources */,
-				229905561AD1A70F003FD06E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +217,7 @@
 			files = (
 				229905511AD1A70F003FD06E /* ViewController.swift in Sources */,
 				2299054F1AD1A70F003FD06E /* AppDelegate.swift in Sources */,
+				2299056F1AD1F6E6003FD06E /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
